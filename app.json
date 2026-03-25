@@ -1,0 +1,22 @@
+{
+  "name": "cyber-by-deniz",
+  "description": "Cyber by Deniz - WhatsApp MD Bot",
+  "repository": "",
+  "logo": "",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "cyber-by-deniz"
+  ],
+  "env": {
+    "SESSION_ID": {
+      "description": "Session ID pour WhatsApp MD Bot (pair code)",
+      "value": ""
+    }
+  },
+  "stack": "container",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
